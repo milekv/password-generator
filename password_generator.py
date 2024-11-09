@@ -2,18 +2,7 @@ import random
 import string
 
 def generate_password(length=12, use_upper=True, use_digits=True, use_special=True):
-    """
-    Funkcja generująca losowe hasło.
-    
-    Parameters:
-    - length (int): Długość hasła.
-    - use_upper (bool): Czy w haśle mają występować wielkie litery.
-    - use_digits (bool): Czy w haśle mają występować cyfry.
-    - use_special (bool): Czy w haśle mają występować znaki specjalne.
-    
-    Returns:
-    - str: Wygenerowane hasło.
-    """
+   "DODAC OPCJE ZAPISYWANIA HASLA DO DANYCH "
     
     lowercase = string.ascii_lowercase
     uppercase = string.ascii_uppercase
